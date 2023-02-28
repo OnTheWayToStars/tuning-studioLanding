@@ -1,0 +1,98 @@
+@font-face {
+    font-family: 'Reforma Grotesk Medium';
+    src: url('ReformaGroteskMediumC.eot');
+    src: url('ReformaGroteskMediumC.eot?#iefix') format('embedded-opentype'),
+    url('ReformaGroteskMediumC.woff') format('woff'),
+    url('ReformaGroteskMediumC.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+html {
+    background-color: #1E1E1E;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.mainBegin {
+    position: absolute;
+    top: 0px;
+    right: 0px; /* 0 */
+    left: 0px; /* 0 */
+    height: 1000px;
+    background: linear-gradient(180deg, rgba(20, 20, 20, 0.8) 78.8%, #141414 100%), url('../img/mainLogo.jpg') center center/cover no-repeat;
+}
+
+a {
+    text-decoration: none;
+    top: 10px;
+    position: relative;
+    right: 300px; /* 300 */
+    display: inline-block;
+    margin: 10px; /* 10px */
+    padding: 10px;  /* 10px */
+    font-size:1ex;
+    color: #FFFFFF;
+    
+    
+}
+a:hover {
+    color: #DB3138;
+}
+
+.navigation-menu {
+top: 40px;
+font-family: 'Reforma Grotesk Medium';
+font-style: normal;
+font-weight: 500; /* 500 */
+font-size: 37px; /* 37 */
+line-height: 120%;
+
+/* identical to box height, or 29px */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+/* white */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.mainText { 
+    position: relative;
+    color: #DB3138;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em; /* 10em */
+    font-family: 'Reforma Grotesk Medium';
+    font-style: normal;
+    font-size: 150px; /* 150px */
+    font-weight: 700; /* 700 */
+    line-height: 125%; /* 125% */
+    text-align: center;
+    top: 120px;
+}
+
+
+@media screen and (max-width: 1440px) {
+    a {
+        right: 120px;
+    }
+    .mainBegin {
+        height: 800px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .mainText {
+        width: 8em;
+        line-height: 85%;
+
+    }
+}
